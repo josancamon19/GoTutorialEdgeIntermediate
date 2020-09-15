@@ -13,7 +13,7 @@ func getLimit() func() int {
 	}
 }
 
-func main() {
+func main4() {
 	limitFunction := getLimit()
 	fmt.Println(limitFunction())
 	fmt.Println(limitFunction())
