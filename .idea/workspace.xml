@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bea8cfb3-dd7e-49a6-abb4-7c4b82c05c78" name="Default Changelist" comment="" />
+    <list default="true" id="bea8cfb3-dd7e-49a6-abb4-7c4b82c05c78" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,7 +18,11 @@
     </option>
   </component>
   <component name="GOROOT" path="C:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1hT4cprZ74nXrlC6QON9kmTa4zt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -45,7 +51,7 @@
       <recent name="C:\Users\joans\Downloads\personal\Go\src\TutorialEdgeIntermediate\simple-web-server\static" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build TutorialEdgeIntermediate/rabbitmq/consumer">
+  <component name="RunManager" selected="Go Build.go build TutorialEdgeIntermediate">
     <configuration name="go build TutorialEdgeIntermediate" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="TutorialEdgeIntermediate" />
       <working_directory value="$PROJECT_DIR$" />
@@ -93,10 +99,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build TutorialEdgeIntermediate" />
         <item itemvalue="Go Build.go build TutorialEdgeIntermediate/rabbitmq/consumer" />
         <item itemvalue="Go Build.go build TutorialEdgeIntermediate/rabbitmq/publisher" />
         <item itemvalue="Go Build.go build TutorialEdgeIntermediate/rabbitmq-consumer" />
-        <item itemvalue="Go Build.go build TutorialEdgeIntermediate" />
         <item itemvalue="Go Build.go build TutorialEdgeIntermediate/orm" />
       </list>
     </recent_temporary>
@@ -106,22 +112,30 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="264" key="GridCell.Tab.0.bottom" timestamp="1600186944193">
+    <state x="798" y="417" key="Github.ShareDialog" timestamp="1600188370269">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600186944193" />
-    <state width="1877" height="264" key="GridCell.Tab.0.center" timestamp="1600186944192">
+    <state x="798" y="417" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600188370269" />
+    <state x="694" y="224" key="Github.UntrackedFilesDialog" timestamp="1600188377415">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600186944192" />
-    <state width="1877" height="264" key="GridCell.Tab.0.left" timestamp="1600186944192">
+    <state x="694" y="224" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600188377415" />
+    <state width="1877" height="264" key="GridCell.Tab.0.bottom" timestamp="1600188510711">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600186944192" />
-    <state width="1877" height="264" key="GridCell.Tab.0.right" timestamp="1600186944193">
+    <state width="1877" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600188510711" />
+    <state width="1877" height="264" key="GridCell.Tab.0.center" timestamp="1600188510711">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600186944193" />
+    <state width="1877" height="264" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600188510711" />
+    <state width="1877" height="264" key="GridCell.Tab.0.left" timestamp="1600188510711">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="264" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600188510711" />
+    <state width="1877" height="264" key="GridCell.Tab.0.right" timestamp="1600188510711">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="264" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600188510711" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1600100727734">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
