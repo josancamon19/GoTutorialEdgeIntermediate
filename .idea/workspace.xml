@@ -19,11 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bea8cfb3-dd7e-49a6-abb4-7c4b82c05c78" name="Default Changelist" comment="closures simple example">
-      <change afterPath="$PROJECT_DIR$/env-variables.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/variadic-functions.go" afterDir="false" />
+    <list default="true" id="bea8cfb3-dd7e-49a6-abb4-7c4b82c05c78" name="Default Changelist" comment="variadic-functions.go and env-variables.go">
+      <change afterPath="$PROJECT_DIR$/decorator-functions.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/closures.go" beforeDir="false" afterPath="$PROJECT_DIR$/closures.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +53,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -63,8 +61,12 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\joans\Downloads\personal\Go\src\TutorialEdgeIntermediate" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\joans\Downloads\personal\Go\src\TutorialEdgeIntermediate\rabbitmq" />
       <recent name="C:\Users\joans\Downloads\personal\Go\src\TutorialEdgeIntermediate\rabbitmq-publisher" />
@@ -143,12 +145,18 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="closures simple example" />
-    <option name="LAST_COMMIT_MESSAGE" value="closures simple example" />
+    <MESSAGE value="variadic-functions.go and env-variables.go" />
+    <option name="LAST_COMMIT_MESSAGE" value="variadic-functions.go and env-variables.go" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1600216575802">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600216575802" />
     <state x="798" y="417" key="Github.ShareDialog" timestamp="1600188370269">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -157,33 +165,37 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="694" y="224" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600188377415" />
-    <state width="1877" height="264" key="GridCell.Tab.0.bottom" timestamp="1600199130507">
+    <state width="1877" height="264" key="GridCell.Tab.0.bottom" timestamp="1600216213533">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600199130507" />
-    <state width="1877" height="264" key="GridCell.Tab.0.center" timestamp="1600199130507">
+    <state width="1877" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600216213533" />
+    <state width="1877" height="264" key="GridCell.Tab.0.center" timestamp="1600216213533">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600199130507" />
-    <state width="1877" height="264" key="GridCell.Tab.0.left" timestamp="1600199130507">
+    <state width="1877" height="264" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600216213533" />
+    <state width="1877" height="264" key="GridCell.Tab.0.left" timestamp="1600216213533">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600199130507" />
-    <state width="1877" height="264" key="GridCell.Tab.0.right" timestamp="1600199130507">
+    <state width="1877" height="264" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600216213533" />
+    <state width="1877" height="264" key="GridCell.Tab.0.right" timestamp="1600216213533">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600199130507" />
+    <state width="1877" height="264" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600216213533" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1600100727734">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1600100727734" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1600198876191">
+    <state x="461" y="164" key="SettingsEditor" timestamp="1600216083698">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600198876191" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600198861967">
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600216083698" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1600199747939">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600198861967" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600199747939" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600216561573">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600216561573" />
   </component>
 </project>
