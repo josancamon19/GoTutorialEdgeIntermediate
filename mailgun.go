@@ -8,7 +8,7 @@ import (
 	"time"
 )
 
-func main() {
+func main8() {
 	// Create an instance of the Mailgun Client
 	mg := mailgun.NewMailgun("sandboxabf655fdbf5a48a1bea93d1d3c25c85d.mailgun.org", "123")
 

@@ -19,10 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bea8cfb3-dd7e-49a6-abb4-7c4b82c05c78" name="Default Changelist" comment="Go decorator-functions.go with endpoint auth example">
-      <change afterPath="$PROJECT_DIR$/mailgun.go" afterDir="false" />
+    <list default="true" id="bea8cfb3-dd7e-49a6-abb4-7c4b82c05c78" name="Default Changelist" comment="Go mailgun.go example">
+      <change afterPath="$PROJECT_DIR$/redis.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/decorator-functions.go" beforeDir="false" afterPath="$PROJECT_DIR$/decorator-functions.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mailgun.go" beforeDir="false" afterPath="$PROJECT_DIR$/mailgun.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,9 +152,14 @@
     <MESSAGE value="closures simple example" />
     <MESSAGE value="variadic-functions.go and env-variables.go" />
     <MESSAGE value="Go decorator-functions.go with endpoint auth example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Go decorator-functions.go with endpoint auth example" />
+    <MESSAGE value="Go mailgun.go example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Go mailgun.go example" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="743" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1600264500046">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="743" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1600264500046" />
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1600216575802">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -167,22 +172,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="694" y="224" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600188377415" />
-    <state width="1877" height="264" key="GridCell.Tab.0.bottom" timestamp="1600218022230">
+    <state width="1877" height="264" key="GridCell.Tab.0.bottom" timestamp="1600265205436">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600218022230" />
-    <state width="1877" height="264" key="GridCell.Tab.0.center" timestamp="1600218022230">
+    <state width="1877" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600265205436" />
+    <state width="1877" height="264" key="GridCell.Tab.0.center" timestamp="1600265205435">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600218022230" />
-    <state width="1877" height="264" key="GridCell.Tab.0.left" timestamp="1600218022230">
+    <state width="1877" height="264" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600265205435" />
+    <state width="1877" height="264" key="GridCell.Tab.0.left" timestamp="1600265205435">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600218022230" />
-    <state width="1877" height="264" key="GridCell.Tab.0.right" timestamp="1600218022230">
+    <state width="1877" height="264" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600265205435" />
+    <state width="1877" height="264" key="GridCell.Tab.0.right" timestamp="1600265205436">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600218022230" />
+    <state width="1877" height="264" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600265205436" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1600100727734">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -191,10 +196,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600216083698" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1600217120822">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1600221155839">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600217120822" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600221155839" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600216561573">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
