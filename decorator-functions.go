@@ -37,7 +37,7 @@ func homePage(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "Welcome to the HomePage!")
 }
 
-func main() {
+func main7() {
 	withFuncArg(simpleFunc)
 	http.Handle("/", isAuthorized(homePage))
 	log.Fatal(http.ListenAndServe(":8081", nil))
